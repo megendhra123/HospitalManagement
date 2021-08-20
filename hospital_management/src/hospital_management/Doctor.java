@@ -4,12 +4,10 @@
 package hospital_management;
 
 public class Doctor {
-	int doctorId;
 	String doctorName;
 	String doctorSpecialisation;
 
-	public Doctor(int doctorId, String doctorName, String doctorSpecialisation) {
-		this.doctorId = doctorId;
+	public Doctor( String doctorName, String doctorSpecialisation) {
 		this.doctorName = doctorName;
 		this.doctorSpecialisation = doctorSpecialisation;
 	}
