@@ -112,19 +112,22 @@ public class DataStorage {
 		Appointment appointment;
 		List<Appointment> listAppointments =new ArrayList<Appointment>();
 		
-		appointment=new Appointment(100001,"21/08/21", "Patient not sleep for four days", 1, 120f, 36.7f, 30003);
+		appointment=new Appointment(100001,"21/08/2021", "Patient not sleep for four days", 1, 120f, 36.7f, 30003);
 		listAppointments.add(appointment);
 		
-		appointment=new Appointment(100002,"22/08/21", "Patient have high BP", 2, 220f, 38.7f, 30001);
+		appointment=new Appointment(100002,"22/08/2021", "Patient have high BP", 2, 220f, 38.7f, 30001);
 		listAppointments.add(appointment);
 		
-		appointment=new Appointment(100001,"26/08/21", "Patient not cure from sleep disorder", 2, 150f, 36.7f, 30003);
+		appointment=new Appointment(100001,"23/08/2021", "Patient not cure from sleep disorder", 2, 130f, 36.7f, 30003);
 		listAppointments.add(appointment);
 		
-		appointment=new Appointment(100003,"25/08/21", "Pattient have food poison", 1, 120f, 36.7f, 30004);
+		appointment=new Appointment(100001,"26/08/2021", "Patient not cure from sleep disorder", 2, 150f, 36.7f, 30003);
 		listAppointments.add(appointment);
 		
-		appointment=new Appointment(100001,"28/08/21", "Patient not cure from sleep disorder", 3, 120f, 36.7f, 30003);
+		appointment=new Appointment(100003,"25/08/2021", "Pattient have food poison", 1, 120f, 36.7f, 30004);
+		listAppointments.add(appointment);
+		
+		appointment=new Appointment(100001,"28/08/2021", "Patient not cure from sleep disorder", 3, 120f, 36.7f, 30003);
 		listAppointments.add(appointment);
 		return listAppointments;
 	}
